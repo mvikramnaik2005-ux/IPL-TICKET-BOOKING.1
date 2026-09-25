@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #fcfae5;
+  color: #182b49;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 32px 0;
+  color: #182b49;
+}
+
+button {
+  border: 0;
+  border-radius: 6px;
+  background-color: #96d4fb;
+  color: #182b49;
+  font: inherit;
+}
+
+button:hover {
+  background-color: #7bc6f5;
+}
